@@ -1,0 +1,17 @@
+[
+  {
+    "code": "6.867",
+    "name": "Machine Learning",
+    "courseId": "ocw_6-867-machine-learning-fall-2006"
+  },
+  {
+    "code": "6.S897",
+    "name": "Machine Learning for Healthcare",
+    "courseId": "ocw_6-s897-machine-learning-for-healthcare-spring-2019"
+  },
+  {
+    "code": "18.657",
+    "name": "Mathematics of Machine Learning",
+    "courseId": "ocw_18-657-mathematics-of-machine-learning-fall-2015"
+  }
+]

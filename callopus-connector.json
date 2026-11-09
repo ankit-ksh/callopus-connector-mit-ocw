@@ -1,0 +1,32 @@
+{
+  "protocol": 2,
+  "connectors": [
+    {
+      "id": "mit-ocw",
+      "label": "MIT OCW",
+      "entry": "dist/mit-ocw.js",
+      "auth": { "kind": "none" },
+      "network": ["https://ocw.mit.edu", "https://open.mit.edu"],
+      "addFlow": [
+        { "kind": "remote-search" },
+        {
+          "kind": "url-paste",
+          "placeholder": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+          "helpText": "Paste any MIT OCW course URL — a link to the course itself, or a deep link straight to one lecture/reading/assignment page both work the same way, since only the course is kept."
+        }
+      ],
+      "links": [
+        "https://ocw.mit.edu/courses/*/pages/*",
+        "https://ocw.mit.edu/courses/*/resources/*"
+      ],
+      "sourceUrl": "https://ocw.mit.edu",
+      "displayCode": { "pattern": "^ocw_([^-]+)-([^-]+).*$", "replacement": "$1.$2", "transform": "upper" },
+      "platformDetails": [
+        { "label": "Platform", "value": "MIT OpenCourseWare (OCW)" },
+        { "label": "Institution", "value": "Massachusetts Institute of Technology (MIT)" },
+        { "label": "License", "value": "Creative Commons BY-NC-SA 4.0", "href": "https://creativecommons.org/licenses/by-nc-sa/4.0/" },
+        { "label": "Website", "value": "https://ocw.mit.edu", "href": "https://ocw.mit.edu" }
+      ]
+    }
+  ]
+}

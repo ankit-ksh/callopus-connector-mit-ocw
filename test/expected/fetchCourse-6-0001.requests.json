@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/instructor-insights/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/readings/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/video_galleries/lecture-videos/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-1-what-is-computation/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-2-branching-and-iteration/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-3-string-manipulation-guess-and-check-approximations-bisection/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-4-decomposition-abstraction-and-functions/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-5-tuples-lists-aliasing-mutability-and-cloning/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-6-recursion-and-dictionaries/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-7-testing-debugging-exceptions-and-assertions/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-8-object-oriented-programming/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-9-python-classes-and-inheritance/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-10-understanding-program-efficiency-part-1/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-11-understanding-program-efficiency-part-2/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-12-searching-and-sorting/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/lecture-slides-code/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/in-class-questions-and-video-solutions/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/",
+    "method": "GET",
+    "headers": {},
+    "body": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://open.mit.edu/api/v0/search/",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"from\":0,\"size\":20,\"post_filter\":{\"bool\":{\"must\":[{\"bool\":{\"should\":[{\"term\":{\"object_type.keyword\":\"course\"}}]}},{\"bool\":{\"should\":[{\"term\":{\"offered_by\":\"OCW\"}}]}}]}},\"query\":{\"bool\":{\"must\":[{\"term\":{\"object_type\":\"course\"}},{\"multi_match\":{\"query\":\"python\",\"fields\":[\"title.english^3\",\"short_description.english^2\",\"full_description.english\",\"topics\",\"platform\",\"course_id\",\"offered_by\",\"department_name\",\"course_feature_tags\"]}}]}}}"
+  }
+]
