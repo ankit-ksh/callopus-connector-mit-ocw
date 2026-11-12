@@ -328,7 +328,7 @@ async function scrapeResourcePage(ctx, href, fallbackTitle) {
         youtubeId: content.videoId,
         transcripts: captionsSrc ? [{ lang: "eng", url: captionsSrc }] : void 0
       },
-      bodyHtml: content.descriptionHtml,
+      body: { html: content.descriptionHtml },
       details: videoDetails,
       authors,
       sourceUrl: resourceUrl
@@ -344,7 +344,7 @@ async function scrapeResourcePage(ctx, href, fallbackTitle) {
     });
   }
   return lesson(href, title, "reading", {
-    bodyHtml: content.bodyHtml,
+    body: { html: content.bodyHtml },
     details,
     authors,
     sourceUrl: resourceUrl
@@ -370,7 +370,8 @@ async function resolveLink(href, ctx) {
   if (!path || !LINK_PATTERN.test(path) || FILE_EXT_PATTERN.test(path)) return null;
   try {
     const item = await scrapeResourcePage(ctx, path);
-    return item.video || item.bodyHtml || item.pdfUrl ? { kind: "page", lesson: item } : null;
+    const text2 = item.body && "html" in item.body ? item.body.html : "";
+    return item.video || text2 || item.pdfUrl ? { kind: "page", lesson: item } : null;
   } catch {
     return null;
   }

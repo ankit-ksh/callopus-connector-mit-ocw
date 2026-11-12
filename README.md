@@ -45,9 +45,9 @@ Implements Protocol 2:
   - Video galleries (`/video_galleries/`) are expanded into `video` lessons with
     YouTube IDs (`youtubeId`) and English transcript VTT links.
   - Resource pages with embedded PDF viewers become `pdf` lessons with `pdfUrl`.
-  - Static HTML sections become `reading` lessons with sanitized `bodyHtml` and
+  - Static HTML sections become `reading` lessons with a sanitized `body` (`{ html }`) and
     rewritten absolute asset links.
-  - Sub-pages in navigation are listed as stubs without `bodyHtml`, prompting the
+  - Sub-pages in navigation are listed as stubs without a `body`, prompting the
     host application to load them lazily via `fetchLesson`.
 - **Metadata & Provenance:**
   Instructor names, departments, term, course number, and resource descriptions

@@ -12,7 +12,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -43,7 +45,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -74,7 +78,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "<h3 id=\"textbook\">Textbook</h3>\n\n<p>The textbook is <a class=\"external-link\" target=\"_blank\" href=\"https://mitpress.mit.edu/9780262529624\" aria-label=\"Buy at MIT Press (opens in a new tab)\">Buy at MIT Press</a> Guttag, John. <em>Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition</em>. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.</p>\n<p></p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nSES&#160;#\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nREADINGS\n</th>\n<p></p>\n</tr>\n\n<p></p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n\nWhat is computation?\n</td>\n\n<td>\n\nChapters 1 and 2.1\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n\nBranching and Iteration\n</td>\n\n<td>\n\nChapters 2.2, 2.3.1, 2.4, and 3.2\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n3\n</td>\n\n<td>\n\nString Manipulation, Guess and Check, Approximations, Bisection\n</td>\n\n<td>\n\nChapters 3.1 and 3.3–3.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n4\n</td>\n\n<td>\n\nDecomposition, Abstractions, Functions\n</td>\n\n<td>\n\nChapters 4.1–4.2 and 4.4–4.6\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n5\n</td>\n\n<td>\n\nTuples, Lists, Aliasing, Mutability, Cloning\n</td>\n\n<td>\n\nChapters 5.1–5.3.1 and 5.4–5.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n6\n</td>\n\n<td>\n\nRecursion, Dictionaries\n</td>\n\n<td>\n\nChapters 4.3 and 5.6\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n7\n</td>\n\n<td>\n\nTesting, Debugging, Exceptions, Assertions\n</td>\n\n<td>\n\nChapters 6 and 7\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n8\n</td>\n\n<td>\n\nObject Oriented Programming\n</td>\n\n<td>\n\nChapter 8.1\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n9\n</td>\n\n<td>\n\nPython Classes and Inheritance\n</td>\n\n<td>\n\nChapter 8.2\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n10\n</td>\n\n<td>\n\nUnderstanding Program Efficiency, Part 1\n</td>\n\n<td>\n\nChapters 9.1–9.3.1, 9.3.3, and 9.3.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n11\n</td>\n\n<td>\n\nUnderstanding Program Efficiency, Part 1 (Cont.)\n</td>\n\n<td>\n\nChapters 9.3.2, 9.3.4, 9.3.6, and 9.3.7\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n12\n</td>\n\n<td>\n\nSearching and Sorting algorithms\n</td>\n\n<td>\n\nChapters 10.1–10.2\n</td>\n<p></p>\n</tr>\n\n</table>",
+          "body": {
+            "html": "<h3 id=\"textbook\">Textbook</h3>\n\n<p>The textbook is <a class=\"external-link\" target=\"_blank\" href=\"https://mitpress.mit.edu/9780262529624\" aria-label=\"Buy at MIT Press (opens in a new tab)\">Buy at MIT Press</a> Guttag, John. <em>Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition</em>. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.</p>\n<p></p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nSES&#160;#\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nREADINGS\n</th>\n<p></p>\n</tr>\n\n<p></p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n\nWhat is computation?\n</td>\n\n<td>\n\nChapters 1 and 2.1\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n\nBranching and Iteration\n</td>\n\n<td>\n\nChapters 2.2, 2.3.1, 2.4, and 3.2\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n3\n</td>\n\n<td>\n\nString Manipulation, Guess and Check, Approximations, Bisection\n</td>\n\n<td>\n\nChapters 3.1 and 3.3–3.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n4\n</td>\n\n<td>\n\nDecomposition, Abstractions, Functions\n</td>\n\n<td>\n\nChapters 4.1–4.2 and 4.4–4.6\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n5\n</td>\n\n<td>\n\nTuples, Lists, Aliasing, Mutability, Cloning\n</td>\n\n<td>\n\nChapters 5.1–5.3.1 and 5.4–5.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n6\n</td>\n\n<td>\n\nRecursion, Dictionaries\n</td>\n\n<td>\n\nChapters 4.3 and 5.6\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n7\n</td>\n\n<td>\n\nTesting, Debugging, Exceptions, Assertions\n</td>\n\n<td>\n\nChapters 6 and 7\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n8\n</td>\n\n<td>\n\nObject Oriented Programming\n</td>\n\n<td>\n\nChapter 8.1\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n9\n</td>\n\n<td>\n\nPython Classes and Inheritance\n</td>\n\n<td>\n\nChapter 8.2\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n10\n</td>\n\n<td>\n\nUnderstanding Program Efficiency, Part 1\n</td>\n\n<td>\n\nChapters 9.1–9.3.1, 9.3.3, and 9.3.5\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n11\n</td>\n\n<td>\n\nUnderstanding Program Efficiency, Part 1 (Cont.)\n</td>\n\n<td>\n\nChapters 9.3.2, 9.3.4, 9.3.6, and 9.3.7\n</td>\n<p></p>\n<p></p></tr>\n\n<tr>\n\n<td>\n\n12\n</td>\n\n<td>\n\nSearching and Sorting algorithms\n</td>\n\n<td>\n\nChapters 10.1–10.2\n</td>\n<p></p>\n</tr>\n\n</table>"
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -114,7 +120,9 @@
               }
             ]
           },
-          "bodyHtml": "<p><strong>Description:</strong> In this lecture, Dr. Bell introduces the theory of computation and explains some aspects of computational thinking. Programming languages are discussed, with an emphasis on basic Python syntax and data structures.</p>\n<p><strong>Instructor:</strong> Dr. Ana Bell</p>",
+          "body": {
+            "html": "<p><strong>Description:</strong> In this lecture, Dr. Bell introduces the theory of computation and explains some aspects of computational thinking. Programming languages are discussed, with an emphasis on basic Python syntax and data structures.</p>\n<p><strong>Instructor:</strong> Dr. Ana Bell</p>"
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -162,7 +170,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -187,7 +197,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -212,7 +224,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -237,7 +251,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -262,7 +278,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -287,7 +305,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -312,7 +332,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -337,7 +359,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -362,7 +386,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -387,7 +413,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -412,7 +440,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -443,7 +473,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -474,7 +506,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "",
+          "body": {
+            "html": ""
+          },
           "details": [
             {
               "label": "Original Resource",
@@ -633,7 +667,9 @@
           "kind": "reading",
           "graded": false,
           "dueAt": null,
-          "bodyHtml": "<p>Note: The links provided to the software may no longer work. You can download the current and previous versions of <a class=\"external-link\" target=\"_blank\" href=\"https://www.anaconda.com/\" aria-label=\"Anaconda (opens in a new tab)\">Anaconda</a> and <a class=\"external-link\" target=\"_blank\" href=\"https://www.python.org/\" aria-label=\"Python (opens in a new tab)\">Python</a> from their respective sites. This course is based on Python 3.5. See the <a class=\"external-link\" target=\"_blank\" href=\"https://docs.anaconda.com/anaconda/user-guide/faq/#anaconda-faq-35\" aria-label=\"Anaconda for Python 3.5 FAQ (opens in a new tab)\">Anaconda for Python 3.5 FAQ</a>.</p>\n<p>Please review the <a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_styleguide/\">6.0001 Style Guide (PDF)</a> before attempting the problem sets. If you need additional help, please consult the 6.0001 list of <a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_additional/\">Programming Resources (PDF)</a>. Solutions are not available.</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps0/\">Problem Set 0 (ZIP - 2.0MB)</a> (This file contains: 1 .py file and 2 .pdf files.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_ps1/\">Problem Set 1 (PDF)</a></p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps2/\">Problem Set 2 (ZIP)</a> (This file contains: 1 .txt file, 1 .py file and 1 .pdf file.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps3/\">Problem Set 3 (ZIP)</a> (This file contains: 1 .pdf file, 2 .py files and 1 .txt file.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps4/\">Problem Set 4 (ZIP)</a> (This file contains: 1 .pdf file, 3 .py files and&#160; 2 .txt files.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps5/\">Problem Set 5 (ZIP)</a> (This file contains: 5 .py files, 1 .pdf file and 1 .txt file.)</p>",
+          "body": {
+            "html": "<p>Note: The links provided to the software may no longer work. You can download the current and previous versions of <a class=\"external-link\" target=\"_blank\" href=\"https://www.anaconda.com/\" aria-label=\"Anaconda (opens in a new tab)\">Anaconda</a> and <a class=\"external-link\" target=\"_blank\" href=\"https://www.python.org/\" aria-label=\"Python (opens in a new tab)\">Python</a> from their respective sites. This course is based on Python 3.5. See the <a class=\"external-link\" target=\"_blank\" href=\"https://docs.anaconda.com/anaconda/user-guide/faq/#anaconda-faq-35\" aria-label=\"Anaconda for Python 3.5 FAQ (opens in a new tab)\">Anaconda for Python 3.5 FAQ</a>.</p>\n<p>Please review the <a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_styleguide/\">6.0001 Style Guide (PDF)</a> before attempting the problem sets. If you need additional help, please consult the 6.0001 list of <a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_additional/\">Programming Resources (PDF)</a>. Solutions are not available.</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps0/\">Problem Set 0 (ZIP - 2.0MB)</a> (This file contains: 1 .py file and 2 .pdf files.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_ps1/\">Problem Set 1 (PDF)</a></p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps2/\">Problem Set 2 (ZIP)</a> (This file contains: 1 .txt file, 1 .py file and 1 .pdf file.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps3/\">Problem Set 3 (ZIP)</a> (This file contains: 1 .pdf file, 2 .py files and 1 .txt file.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps4/\">Problem Set 4 (ZIP)</a> (This file contains: 1 .pdf file, 3 .py files and&#160; 2 .txt files.)</p>\n<p><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps5/\">Problem Set 5 (ZIP)</a> (This file contains: 5 .py files, 1 .pdf file and 1 .txt file.)</p>"
+          },
           "details": [
             {
               "label": "Original Resource",

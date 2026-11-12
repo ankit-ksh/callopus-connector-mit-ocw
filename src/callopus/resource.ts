@@ -38,7 +38,7 @@ export async function scrapeResourcePage(
         youtubeId: content.videoId,
         transcripts: captionsSrc ? [{ lang: "eng", url: captionsSrc }] : undefined,
       },
-      bodyHtml: content.descriptionHtml,
+      body: { html: content.descriptionHtml },
       details: videoDetails,
       authors,
       sourceUrl: resourceUrl,
@@ -56,7 +56,7 @@ export async function scrapeResourcePage(
   }
 
   return lesson(href, title, "reading", {
-    bodyHtml: content.bodyHtml,
+    body: { html: content.bodyHtml },
     details,
     authors,
     sourceUrl: resourceUrl,
@@ -100,7 +100,8 @@ export async function resolveLink(href: string, ctx: ConnectorContext): Promise<
   if (!path || !LINK_PATTERN.test(path) || FILE_EXT_PATTERN.test(path)) return null;
   try {
     const item = await scrapeResourcePage(ctx, path);
-    return item.video || item.bodyHtml || item.pdfUrl ? { kind: "page", lesson: item } : null;
+    const text = item.body && "html" in item.body ? item.body.html : "";
+    return item.video || text || item.pdfUrl ? { kind: "page", lesson: item } : null;
   } catch {
     return null;
   }
